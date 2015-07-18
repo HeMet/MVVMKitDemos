@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840775C91B5A7C2D00621B69 /* DemosListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840775C81B5A7C2D00621B69 /* DemosListViewModel.swift */; };
+		840775CB1B5A810A00621B69 /* StubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840775CA1B5A810A00621B69 /* StubViewController.swift */; };
+		840775CD1B5A813C00621B69 /* StubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840775CC1B5A813C00621B69 /* StubViewModel.swift */; };
+		840775CF1B5A815B00621B69 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840775CE1B5A815B00621B69 /* BaseViewModel.swift */; };
 		84915D3B1B5A496F008D5D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915D3A1B5A496F008D5D73 /* AppDelegate.swift */; };
-		84915D3D1B5A496F008D5D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915D3C1B5A496F008D5D73 /* ViewController.swift */; };
+		84915D3D1B5A496F008D5D73 /* DemosListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915D3C1B5A496F008D5D73 /* DemosListViewController.swift */; };
 		84915D401B5A496F008D5D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84915D3E1B5A496F008D5D73 /* Main.storyboard */; };
 		84915D421B5A496F008D5D73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84915D411B5A496F008D5D73 /* Images.xcassets */; };
 		84915D451B5A496F008D5D73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84915D431B5A496F008D5D73 /* LaunchScreen.xib */; };
@@ -21,6 +25,7 @@
 		84915D741B5A6988008D5D73 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84915D6D1B5A6988008D5D73 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84915D751B5A6988008D5D73 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84915D6E1B5A6988008D5D73 /* Result.framework */; };
 		84915D761B5A6988008D5D73 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84915D6E1B5A6988008D5D73 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84915D791B5A7037008D5D73 /* GoTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84915D781B5A7037008D5D73 /* GoTo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +56,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		840775C81B5A7C2D00621B69 /* DemosListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemosListViewModel.swift; path = ViewModels/DemosListViewModel.swift; sourceTree = "<group>"; };
+		840775CA1B5A810A00621B69 /* StubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StubViewController.swift; path = Views/Controllers/StubViewController.swift; sourceTree = "<group>"; };
+		840775CC1B5A813C00621B69 /* StubViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StubViewModel.swift; path = ViewModels/StubViewModel.swift; sourceTree = "<group>"; };
+		840775CE1B5A815B00621B69 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = ViewModels/BaseViewModel.swift; sourceTree = "<group>"; };
 		84915D351B5A496F008D5D73 /* MVVMKitDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMKitDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84915D391B5A496F008D5D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84915D3A1B5A496F008D5D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84915D3C1B5A496F008D5D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84915D3C1B5A496F008D5D73 /* DemosListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemosListViewController.swift; path = Views/Controllers/DemosListViewController.swift; sourceTree = "<group>"; };
 		84915D3F1B5A496F008D5D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84915D411B5A496F008D5D73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84915D441B5A496F008D5D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -65,6 +74,7 @@
 		84915D6C1B5A6988008D5D73 /* MVVMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MVVMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84915D6D1B5A6988008D5D73 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84915D6E1B5A6988008D5D73 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84915D781B5A7037008D5D73 /* GoTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoTo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840775C71B5A7B8800621B69 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				840775CE1B5A815B00621B69 /* BaseViewModel.swift */,
+				840775C81B5A7C2D00621B69 /* DemosListViewModel.swift */,
+				840775CC1B5A813C00621B69 /* StubViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
 		84915D2C1B5A496F008D5D73 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +134,14 @@
 		84915D371B5A496F008D5D73 /* MVVMKitDemos */ = {
 			isa = PBXGroup;
 			children = (
+				840775C71B5A7B8800621B69 /* ViewModels */,
+				84915D7A1B5A70EB008D5D73 /* Views */,
 				84915D3A1B5A496F008D5D73 /* AppDelegate.swift */,
-				84915D3C1B5A496F008D5D73 /* ViewController.swift */,
 				84915D3E1B5A496F008D5D73 /* Main.storyboard */,
 				84915D411B5A496F008D5D73 /* Images.xcassets */,
 				84915D431B5A496F008D5D73 /* LaunchScreen.xib */,
 				84915D381B5A496F008D5D73 /* Supporting Files */,
+				84915D781B5A7037008D5D73 /* GoTo.swift */,
 			);
 			path = MVVMKitDemos;
 			sourceTree = "<group>";
@@ -147,6 +169,23 @@
 				84915D4F1B5A4970008D5D73 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84915D7A1B5A70EB008D5D73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84915D7B1B5A7748008D5D73 /* Controllers */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84915D7B1B5A7748008D5D73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84915D3C1B5A496F008D5D73 /* DemosListViewController.swift */,
+				840775CA1B5A810A00621B69 /* StubViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +234,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = simbirsoft.com;
+				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
 					84915D341B5A496F008D5D73 = {
 						CreatedOnToolsVersion = 6.4;
@@ -250,8 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84915D3D1B5A496F008D5D73 /* ViewController.swift in Sources */,
+				840775CD1B5A813C00621B69 /* StubViewModel.swift in Sources */,
+				84915D3D1B5A496F008D5D73 /* DemosListViewController.swift in Sources */,
 				84915D3B1B5A496F008D5D73 /* AppDelegate.swift in Sources */,
+				840775CF1B5A815B00621B69 /* BaseViewModel.swift in Sources */,
+				840775CB1B5A810A00621B69 /* StubViewController.swift in Sources */,
+				84915D791B5A7037008D5D73 /* GoTo.swift in Sources */,
+				840775C91B5A7C2D00621B69 /* DemosListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,7 +3,7 @@
 //  MVVMKitDemos
 //
 //  Created by Евгений Губин on 18.07.15.
-//  Copyright (c) 2015 simbirsoft.com. All rights reserved.
+//  Copyright (c) 2015 GitHub. All rights reserved.
 //
 
 import UIKit
@@ -11,11 +11,12 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    lazy var window: UIWindow? = UIWindow(frame: UIScreen.mainScreen().bounds)
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        GoTo.root(DemosListViewModel())
+        
         return true
     }
 
