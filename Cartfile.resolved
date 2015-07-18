@@ -1,0 +1,4 @@
+github "robrix/Box" "1.2.2"
+github "HeMet/MVVMKit" "6b825f578d63471cb885b907ceafbe228db6318d"
+github "antitypical/Result" "0.4.4"
+github "ReactiveCocoa/ReactiveCocoa" "08d561d09b43377dde28acc13393b8664105a410"
